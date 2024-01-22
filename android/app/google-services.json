@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520050226690",
+    "project_id": "push-flutter-3814e",
+    "storage_bucket": "push-flutter-3814e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520050226690:android:0bf87288eece242821d91b",
+        "android_client_info": {
+          "package_name": "com.diegopagini.push_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT4BQdO5SMbkPpYb8Hux5RT5A5Q6zTgxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
