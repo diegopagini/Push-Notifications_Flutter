@@ -56,7 +56,7 @@ class NotificationsBloc extends Bloc<NotificationsEvent, NotificationsState> {
     print('Token: $token');
   }
 
-  void _handleRemoteMessage(RemoteMessage message) {
+  void handleRemoteMessage(RemoteMessage message) {
     // Foreground
     if (message.notification == null) return;
 
@@ -75,7 +75,7 @@ class NotificationsBloc extends Bloc<NotificationsEvent, NotificationsState> {
   }
 
   void _onForegroundMessage() {
-    FirebaseMessaging.onMessage.listen(_handleRemoteMessage);
+    FirebaseMessaging.onMessage.listen(handleRemoteMessage);
   }
 
   void requestPermission() async {
