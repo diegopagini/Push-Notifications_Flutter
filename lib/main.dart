@@ -12,6 +12,7 @@ void main() async {
   FirebaseMessaging.onBackgroundMessage(
       firebaseMessagingBackgroundHandler); // To handle background messages
   await NotificationsBloc.initializeFCM(); // To use FCM.
+
   await LocalNotifications
       .initializeLocalNotifications(); // To use Local Notifications
 
